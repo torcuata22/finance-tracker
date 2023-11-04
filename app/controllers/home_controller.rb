@@ -1,4 +1,5 @@
-class HomeController < ActionController::Base
+class HomeController < ApplicationController::Base
+    
     def index 
         
     end
