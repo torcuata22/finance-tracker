@@ -2,7 +2,7 @@
 
 import "@hotwired/turbo-rails";
 import "controllers";
-import "@hotwired/turbo-rails";
-import "controllers";
-import "./bootstrap";
-import "./jquery";
+import "popper";
+import "bootstrap";
+import "trix";
+import "@rails/actiontext";
