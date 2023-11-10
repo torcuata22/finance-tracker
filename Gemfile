@@ -57,6 +57,8 @@ gem "sassc-rails"
 #devise for authentication:
 gem 'devise', '~> 4.9', '>= 4.9.3'
 
+#Alpha Vantage Gem:
+gem 'alphavantage'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
