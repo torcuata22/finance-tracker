@@ -14,5 +14,13 @@
         </div>
     </div>
   <% end %>
-
 </div>
+
+<% if @stock %>
+  <h4>
+    <strong>Symbol: </strong> <%= @stock.ticker %>
+    <strong>Name: </strong> <%= @stock.name %>
+    <strong>Price: </strong> <%= @stock.last_price %>
+  </h4>
+
+<% end %>

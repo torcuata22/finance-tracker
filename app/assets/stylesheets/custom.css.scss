@@ -6,6 +6,15 @@
 
 .search-area {
     padding-top: 50px;
+    display: inline-block;
+}
+
+.results-block {
+    border: 1px solid #ddd; /* Example border styling */
+    border-radius: 4px;     /* Example border radius */
+    padding: 15px;          /* Example padding */
+    margin: 10px; 
+    background-color: azure;
 }
 
 // .no-right-padding{
