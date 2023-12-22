@@ -16,5 +16,14 @@
   <% end %>
 </div>
 
+<div class='row'>
+  <div class='col-9'>
 <%= render 'users/result' %>
+  </div>
+</div>
+
+<% if !@tracked_stocks.empty? %>
+  <%= render 'stocks/list' %>
+<% end %>
+
 
