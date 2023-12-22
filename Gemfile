@@ -45,7 +45,7 @@ gem "bootsnap", require: false
 #Bootstrap 4.6
 gem 'bootstrap', '~> 5.3', '>= 5.3.1'
 
-#JQuery 
+#JQuery
 gem 'jquery-rails'
 
 # Use Sass to process CSS
@@ -69,7 +69,7 @@ gem "font-awesome-rails"
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
- 
+
 end
 
 group :development do

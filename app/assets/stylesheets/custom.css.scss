@@ -17,6 +17,10 @@
     background-color: azure;
 }
 
+.logo-img {
+    max-width: 65px; /* Adjust the maximum width as needed */
+    height: auto;     /* Maintain the aspect ratio */
+  }
 // .no-right-padding{
 //     padding-right:0 !important;
 // }
