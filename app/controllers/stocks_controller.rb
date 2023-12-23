@@ -3,7 +3,7 @@
     def search
         if params[:stock].present?
             @stock = Stock.new_lookup(params[:stock])
-            @tracked_stocks = current_user.stocks
+            @tracked_stocks = current_user.stocks #need to define it so it doesn't upload as nil and crashes the app
             if @stock
               render 'users/my_portfolio'
             else

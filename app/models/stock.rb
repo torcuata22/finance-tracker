@@ -37,6 +37,9 @@ class Stock < ApplicationRecord
       nil  # Handle the case where the API response is not successful or the "Global Quote" is empty
     end
   end
+  def self.check_db(ticker_symbol)
+    where(ticker: ticker_symbol).first
+  end
 end
 
 
